@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Heroes() {
@@ -15,17 +16,17 @@ export default function Heroes() {
             both developers and users alike.
           </p>
           <div className="flex gap-8 ml-5 items-center">
-            <img
+            <Image
               className="w-12 h-12 cursor-pointer"
               src="/images/twitter.png"
               alt="Th!s for twitter"
             />
-            <img
+            <Image
               className="w-12 h-12 cursor-pointer"
               src="/images/telegram.png"
               alt="Th!s for telegram"
             />
-            <img
+            <Image
               className="w-12 h-12 cursor-pointer"
               src="/images/uniswap_icon.png"
               alt="Th!s for uniswap"
@@ -33,7 +34,7 @@ export default function Heroes() {
           </div>
         </div>
         <div>
-          <img className="w-[120rem]" src="/images/pepeheroes.png" alt="" />
+          <Image className="w-[120rem]" src="/images/pepeheroes.png" alt="" />
         </div>
       </div>
       <p className="font-russo font-medium text-2xl text-center my-16">

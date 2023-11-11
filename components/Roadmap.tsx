@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Roadmap() {
@@ -11,7 +12,7 @@ export default function Roadmap() {
           </h1>
           <div className="text-lg">
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/checked.png"
                 alt="checked"
@@ -19,7 +20,7 @@ export default function Roadmap() {
               Establish Core Team
             </p>
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/checked.png"
                 alt="checked"
@@ -27,7 +28,7 @@ export default function Roadmap() {
               EMarket Research and Feasibility Study
             </p>
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/checked.png"
                 alt="checked"
@@ -35,7 +36,7 @@ export default function Roadmap() {
               Define Core Objectives
             </p>
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/checked.png"
                 alt="checked"
@@ -53,7 +54,7 @@ export default function Roadmap() {
           </h1>
           <div className="text-lg">
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/checked.png"
                 alt="checked"
@@ -61,7 +62,7 @@ export default function Roadmap() {
               Prototype Creation
             </p>
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/checked.png"
                 alt="checked"
@@ -69,7 +70,7 @@ export default function Roadmap() {
               Security Audits and Penetration Testing
             </p>
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/checked.png"
                 alt="checked"
@@ -77,7 +78,7 @@ export default function Roadmap() {
               Legal Compliance and Regulatory Review
             </p>
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/checked.png"
                 alt="checked"
@@ -95,7 +96,7 @@ export default function Roadmap() {
           </h1>
           <div className="text-lg">
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/waiting.png"
                 alt="waiting"
@@ -103,7 +104,7 @@ export default function Roadmap() {
               Beta Testing and User Feedback
             </p>
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/waiting.png"
                 alt="waiting"
@@ -111,7 +112,7 @@ export default function Roadmap() {
               Optimization and Refinement
             </p>
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/waiting.png"
                 alt="waiting"
@@ -129,7 +130,7 @@ export default function Roadmap() {
           </h1>
           <div className="text-lg">
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/waiting.png"
                 alt="waiting"
@@ -137,7 +138,7 @@ export default function Roadmap() {
               User Acquisition and Marketing Campaigns
             </p>
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/waiting.png"
                 alt="waiting"
@@ -145,7 +146,7 @@ export default function Roadmap() {
               Continuous Development and Innovation
             </p>
             <p className="flex gap-4 items-center">
-              <img
+              <Image
                 className="w-5 h-5"
                 src="/images/waiting.png"
                 alt="waiting"

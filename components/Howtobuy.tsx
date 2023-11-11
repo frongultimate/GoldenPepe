@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Howtobuy() {
@@ -8,7 +9,7 @@ export default function Howtobuy() {
       </h1>
       <div className="w-full">
         <div className=" py-14 px-20 my-20 mx-60 bg-secondary-darkblue font-russo text-white rounded-2xl mt-20 flex items-center gap-10">
-          <img className="w-64" src="/images/metamask.png" alt="" />
+          <Image className="w-64" src="/images/metamask.png" alt="" />
           <div className="flex flex-col gap-10">
             <h1 className="text-2xl border-b-2 border-white">
               Create your wallet
@@ -22,7 +23,7 @@ export default function Howtobuy() {
         </div>
 
         <div className="py-10 px-20 my-20 mx-60 bg-secondary-darkblue font-russo text-white rounded-2xl mt-20 flex items-center gap-10">
-          <img className="w-64" src="/images/ethereum-logo.png" alt="" />
+          <Image className="w-64" src="/images/ethereum-logo.png" alt="" />
           <div className="flex flex-col gap-10">
             <h1 className="text-2xl border-b-2 border-white">Get Some ETH</h1>
             <p className="text-lg">
@@ -34,7 +35,7 @@ export default function Howtobuy() {
         </div>
 
         <div className="py-10 px-20 my-20 mx-60 bg-secondary-darkblue font-russo text-white rounded-2xl mt-20 flex items-center gap-10">
-          <img className="w-64" src="/images/uniswap-logo.png" alt="" />
+          <Image className="w-64" src="/images/uniswap-logo.png" alt="" />
           <div className="flex flex-col gap-10">
             <h1 className="text-2xl border-b-2 border-white">Go to Uniswap</h1>
             <p className="text-lg">
@@ -46,7 +47,7 @@ export default function Howtobuy() {
         </div>
 
         <div className="py-20 px-20 my-20 mx-60 bg-secondary-darkblue font-russo text-white rounded-2xl mt-20 flex items-center gap-10">
-          <img className="w-64" src="/images/switch-ethereum.png" alt="" />
+          <Image className="w-64" src="/images/switch-ethereum.png" alt="" />
           <div className="flex flex-col gap-10">
             <h1 className="text-2xl border-b-2 border-white">
               Switch ETH for $GoldenPepe
