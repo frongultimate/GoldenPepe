@@ -16,9 +16,6 @@ module.exports = {
       },
     },
     extend: {
-      animation: {
-        slide: "5s slide infinite linear",
-      },
       width: {
         "480": "120rem",
       },
