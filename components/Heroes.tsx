@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Heroes() {
@@ -16,25 +17,43 @@ export default function Heroes() {
             both developers and users alike.
           </p>
           <div className="flex gap-8 ml-5 items-center">
-            <Image
-              className="w-12 h-12 cursor-pointer"
-              src="/images/twitter.png"
-              alt="Th!s for twitter"
-            />
-            <Image
-              className="w-12 h-12 cursor-pointer"
-              src="/images/telegram.png"
-              alt="Th!s for telegram"
-            />
-            <Image
-              className="w-12 h-12 cursor-pointer"
-              src="/images/uniswap_icon.png"
-              alt="Th!s for uniswap"
-            />
+            <Link target="_blank" href={"https://twitter.com"}>
+              <Image
+                className="cursor-pointer"
+                src="/images/twitter.png"
+                alt="Th!s for twitter"
+                width={50}
+                height={50}
+              />
+            </Link>
+            <Link target="_blank" href={"https://web.telegram.org/k/"}>
+              <Image
+                className="cursor-pointer"
+                src="/images/telegram.png"
+                width={50}
+                height={50}
+                alt="Th!s for telegram"
+              />
+            </Link>
+            <Link target="_blank" href={"https://uniswap.org"}>
+              <Image
+                className="cursor-pointer"
+                src="/images/uniswap_icon.png"
+                width={50}
+                height={50}
+                alt="Th!s for uniswap"
+              />
+            </Link>
           </div>
         </div>
         <div>
-          <Image className="w-[120rem]" src="/images/pepeheroes.png" alt="" />
+          <Image
+            className="cursor-pointer"
+            src="/images/pepeheroes.png"
+            width={2500}
+            height={2500}
+            alt=""
+          />
         </div>
       </div>
       <p className="font-russo font-medium text-2xl text-center my-16">

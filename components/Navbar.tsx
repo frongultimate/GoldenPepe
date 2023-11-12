@@ -1,13 +1,16 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
     <div className="flex h-28 items-center px-20 justify-between shadow-lg">
       <div className="flex flex-row">
-        <img
-          className="w-20 h-20 rounded-full"
+        <Image
+          className="rounded-full"
           src="/images/pepelogo.png"
+          width={80}
+          height={80}
           alt="th!s for logo"
         />
         <div className="flex flex-col mt-5">
