@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-export default function Tags() {
+export default function Tags1() {
   return (
     <div className="bg-secondary-darkblue h-20 overflow-hidden flex items-center justify-start relative whitespace-nowrap">
       <div className="tags-slide">
