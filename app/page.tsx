@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Heroes from "@/components/Heroes";
 import Howtobuy from "@/components/Howtobuy";
 import Navbar from "@/components/Navbar";
@@ -13,6 +14,7 @@ export default function Home() {
       <Howtobuy />
       <Tags />
       <Roadmap />
+      <Footer />
     </main>
   );
 }

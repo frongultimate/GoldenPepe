@@ -4,14 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -82,5 +74,25 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .nav::after {
+    @apply absolute content-[''] bg-white h-[3px] w-[0%] left-0 -bottom-[5px] duration-300;
+  }
+  .nav:hover::after {
+    @apply w-[100%];
+  }
+  .tags-slide {
+    @apply flex items-center gap-24 animate-slide;
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 }

@@ -1,13 +1,61 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Tags() {
   return (
-    <div className="flex items-center bg-secondary-darkblue h-20 gap-24 whitespace-nowrap overflow-hidden relative">
-      <img className="w-60" src="/images/avalanche.png" alt="avalanche" />
-      <img className="w-60" src="/images/binance.png" alt="binance" />
-      <img className="w-60" src="/images/ethereum.png" alt="ethereum" />
-      <img className="w-60" src="/images/gnosis.png" alt="gnosis" />
-      <img className="w-60" src="/images/polygon.png" alt="polygon" />
+    <div className="bg-secondary-darkblue h-20 overflow-hidden flex items-center justify-start relative whitespace-nowrap">
+      <div className="tags-slide">
+        <Image
+          src="/images/avalanche.png"
+          width={250}
+          height={150}
+          alt="avalanche"
+        />
+        <Image
+          src="/images/binance.png"
+          width={250}
+          height={150}
+          alt="binance"
+        />
+        <Image
+          src="/images/ethereum.png"
+          width={250}
+          height={150}
+          alt="ethereum"
+        />
+        <Image src="/images/gnosis.png" width={250} height={150} alt="gnosis" />
+        <Image
+          src="/images/polygon.png"
+          width={250}
+          height={150}
+          alt="polygon"
+        />
+        <Image
+          src="/images/avalanche.png"
+          width={250}
+          height={150}
+          alt="avalanche"
+        />
+        <Image
+          src="/images/binance.png"
+          width={250}
+          height={150}
+          alt="binance"
+        />
+        <Image
+          src="/images/ethereum.png"
+          width={250}
+          height={150}
+          alt="ethereum"
+        />
+        <Image src="/images/gnosis.png" width={250} height={150} alt="gnosis" />
+        <Image
+          src="/images/polygon.png"
+          width={250}
+          height={150}
+          alt="polygon"
+        />
+      </div>
     </div>
   );
 }
